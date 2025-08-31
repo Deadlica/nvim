@@ -29,7 +29,7 @@ require('lazy').setup {
   require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.comment',
--- require 'plugins.clipboard', -- sync nvim clipboard with OS clipboard
+  require 'plugins.clipboard', -- sync nvim clipboard with OS clipboard
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
