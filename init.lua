@@ -23,11 +23,13 @@ require('lazy').setup {
   require 'plugins.telescope',
   require 'plugins.lsp',
   require 'plugins.autocompletion',
+-- require 'plugins.none-ls', -- autoformatting
   require 'plugins.gitsigns',
   require 'plugins.alpha',
   require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.comment',
+-- require 'plugins.clipboard', -- sync nvim clipboard with OS clipboard
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
