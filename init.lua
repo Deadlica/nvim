@@ -30,6 +30,8 @@ require('lazy').setup {
   require 'plugins.misc',
   require 'plugins.comment',
   require 'plugins.clipboard', -- sync nvim clipboard with OS clipboard
+  require 'plugins.autosave',
+  require 'plugins.huez', -- Colorscheme picker
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
